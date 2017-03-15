@@ -78,7 +78,13 @@
     <ClCompile Include="XScrollingObject.cpp">
       <Filter>GameObject\_Source</Filter>
     </ClCompile>
-    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Manager\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3DApp.h">
@@ -106,10 +112,16 @@
     <ClInclude Include="IGameObject.h">
       <Filter>GameObject\_Header</Filter>
     </ClInclude>
-    <ClInclude Include="SceneManager.h" />
     <ClInclude Include="XScrollingObject.h">
       <Filter>GameObject\_Header</Filter>
     </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Manager\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="ObjectManager.h" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">

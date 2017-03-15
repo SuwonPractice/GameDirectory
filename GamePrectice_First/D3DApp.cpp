@@ -102,6 +102,7 @@ HRESULT D3DApp::InitD3D(HWND hWnd)
 VOID D3DApp::Cleanup()
 {
 	delete BitmapDataManager::GetInstance();
+	delete SceneManager::GetInstance();
 
 	if (m_pd3dSprite != NULL)
 		m_pd3dSprite->Release();
@@ -165,6 +166,8 @@ INT D3DApp::GameMain()
 
 	if (FAILED(Render()))
 		return -1;
+
+	SceneManager::GetInstance()->CheckChangeScene();
 
 	this->UpdateFrame();
 	return 0;

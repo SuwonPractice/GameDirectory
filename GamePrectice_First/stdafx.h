@@ -5,8 +5,12 @@
 #include <strsafe.h>
 #pragma warning( default : 4996 )
 #include <string>
+
+//----------STL
 #include <vector>
 #include <map>
+#include <list>
+//------------
 
 #include "Define.h"
 

@@ -26,17 +26,9 @@ bool	SceneManager::AddScene(IScene* Scn, int key_Value)
 	return true;
 }
 
-IScene* SceneManager::GetNowScene(int key_Value)
+IScene* SceneManager::GetNowScene()
 {
-	IScene* Scene = m_ScnMap[key_Value];
-
-	if (Scene == nullptr)
-	{
-		MessageBox(GetActiveWindow(), "Scene Load Failed", "Err", MB_OK);
-		return nullptr;
-	}
-
-	return Scene;
+	return m_NowScene;
 }
 
 void	SceneManager::ChangeScene(int Key_Value)
@@ -54,7 +46,9 @@ void	SceneManager::CheckChangeScene()
 	if (m_NextScene != nullptr)
 	{
 		m_NextScene->Init();
-		m_NowScene->Close();
+
+		if (m_NowScene != nullptr)
+			m_NowScene->Close();
 
 		m_NowScene = m_NextScene;
 

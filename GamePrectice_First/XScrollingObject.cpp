@@ -27,6 +27,11 @@ INT XScrollingObject::Update()
 	UpdateScrolling();
 	return 0;
 }
+INT XScrollingObject::Collision(GameObject* obj)
+{
+
+	return 0;
+}
 void XScrollingObject::Destroy()
 {
 

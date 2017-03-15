@@ -1,8 +1,23 @@
-﻿  Game.cpp
-  코드를 생성하고 있습니다.
-  1 of 681 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
-    0 functions were new in current compilation
-    0 functions had inline decision re-evaluated but remain unchanged
-  코드를 생성했습니다.
-  CreateDevice10_2010.vcxproj -> C:\Users\GameDev\Desktop\Practice\DirectXSamples2\DirectXSamples\CreateDevice10\Release\CreateDevice10.exe
-  CreateDevice10_2010.vcxproj -> C:\Users\GameDev\Desktop\Practice\DirectXSamples2\DirectXSamples\CreateDevice10\Release\CreateDevice10.pdb (Full PDB)
+﻿  ObjectManager.cpp
+ObjectManager.cpp(14): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.
+ObjectManager.cpp(18): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.
+ObjectManager.cpp(22): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.
+ObjectManager.cpp(38): error C3867: 'std::list<IGameObject *,std::allocator<_Ty>>::end': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+          with
+          [
+              _Ty=IGameObject *
+          ]
+ObjectManager.cpp(38): error C2678: 이항 '!=': 왼쪽 피연산자로 'std::_List_iterator<std::_List_val<std::_List_simple_types<IGameObject *>>>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\list(300): note: 'bool std::_List_const_iterator<std::_List_val<std::_List_simple_types<IGameObject *>>>::operator !=(const std::_List_const_iterator<std::_List_val<std::_List_simple_types<IGameObject *>>> &) const'일 수 있습니다.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.14393.0\shared\guiddef.h(197): note: 또는       'bool operator !=(const GUID &,const GUID &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\exception(351): note: 또는       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) throw()'[인수 종속성을 조회하여 발견]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\exception(356): note: 또는       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) throw()'[인수 종속성을 조회하여 발견]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\exception(361): note: 또는       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) throw()'[인수 종속성을 조회하여 발견]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\system_error(395): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'[인수 종속성을 조회하여 발견]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\system_error(402): note: 또는       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'[인수 종속성을 조회하여 발견]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\system_error(409): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'[인수 종속성을 조회하여 발견]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.10.24728\include\system_error(416): note: 또는       'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'[인수 종속성을 조회하여 발견]
+  ObjectManager.cpp(38): note: 인수 목록 '(std::_List_iterator<std::_List_val<std::_List_simple_types<IGameObject *>>>, overloaded-function)'을(를) 일치시키는 동안
+  TestScene.cpp
+  XScrollingObject.cpp
+XScrollingObject.cpp(30): warning C4100: 'obj': 참조되지 않은 정식 매개 변수입니다.

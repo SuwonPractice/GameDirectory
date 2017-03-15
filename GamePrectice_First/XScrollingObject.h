@@ -21,6 +21,7 @@ public:
 	virtual INT Init();
 	virtual INT Render();
 	virtual INT Update();
+	virtual INT Collision(GameObject* obj);
 	virtual void Destroy();
 };
 

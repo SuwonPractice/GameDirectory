@@ -53,7 +53,7 @@ protected:
 
 		return piv;
 	}
-	D3DXMATRIX Transformation2D(const D3DXVECTOR2& Position
+	D3DXMATRIX CTexture::Transformation2D(const D3DXVECTOR2& Position
 		, const D3DXVECTOR2 Pivot
 		, const D3DXVECTOR2 Scale
 		, const D3DXVECTOR2 ScalePivot
@@ -182,6 +182,9 @@ public:
 
 		g_pApp->m_pd3dSprite->SetTransform(&mtW);
 		g_pApp->m_pd3dSprite->Draw(m_Tex->m_lpTex, &m_Tex->m_ImageRect, NULL, NULL, m_Color);
+
+		D3DXMatrixIdentity(&mtW);
+		g_pApp->m_pd3dSprite->SetTransform(&mtW);
 
 		g_pApp->m_pd3dSprite->End();
 

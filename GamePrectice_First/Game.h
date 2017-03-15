@@ -1,11 +1,8 @@
 #pragma once
 
-class GameObject;
-
 class CGame
 	:public D3DApp
 {
-	std::vector<GameObject*> m_BackGrounds;
 public:
 	CGame();
 	virtual ~CGame();

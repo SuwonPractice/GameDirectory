@@ -23,7 +23,7 @@ public:
 	
 	bool AddScene(IScene* Scn, int key_Value);
 	
-	IScene* GetNowScene(int key_Value);
+	IScene* GetNowScene();
 
 	void ChangeScene(int Key_Value);
 	void CheckChangeScene();

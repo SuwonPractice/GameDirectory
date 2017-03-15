@@ -377,8 +377,12 @@
     <None Include="DXUT\Optional\directx.ico" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Input.cpp" />
     <ClCompile Include="IScene.cpp" />
+    <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="TestScene.cpp" />
     <ClCompile Include="XScrollingObject.cpp" />
     <ClCompile Include="BitmapDataManager.cpp" />
     <ClCompile Include="Game.cpp" />
@@ -391,8 +395,12 @@
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Input.h" />
     <ClInclude Include="IScene.h" />
+    <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="TestScene.h" />
     <ClInclude Include="XScrollingObject.h" />
     <ClInclude Include="BitmapDataManager.h" />
     <ClInclude Include="D3DApp.h" />
