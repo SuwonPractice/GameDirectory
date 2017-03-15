@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{f91f7d1a-8c64-4fed-8e74-390e9f69dfae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{5f98b3ae-9c72-4d7e-89f4-0afc32503e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{22ff9c55-7d45-48f4-85b5-f75c69205611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SceneObject">
+      <UniqueIdentifier>{cc6041db-1cb8-490e-8ac3-f82825cb415d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SceneObject\Header">
+      <UniqueIdentifier>{2ba947f2-bea0-4b8a-9e0d-fd93e4507331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\SceneObject\Source">
+      <UniqueIdentifier>{b9f9eb20-3009-411e-95f1-8ec08d7cfef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\_Header">
+      <UniqueIdentifier>{5ecfeacb-a27e-4026-b929-d2bde5726d1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\_Source">
+      <UniqueIdentifier>{94d20e0e-6862-44ac-9aea-beaa95751020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\_Header">
+      <UniqueIdentifier>{44248a95-85e9-426b-92f2-2896a3975cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base\_Source">
+      <UniqueIdentifier>{36008b51-98ef-49dc-8502-3a85cf76cd33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\_Header">
+      <UniqueIdentifier>{0b3c5e91-29de-4aaf-bc34-35fa3aa64cff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\_Source">
+      <UniqueIdentifier>{48a80a78-a731-4aef-8292-a86337aeac6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3DApp.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Base\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="BitmapDataManager.cpp">
+      <Filter>Manager\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>GameObject\SceneObject\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameObject.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="XScrollingObject.cpp">
+      <Filter>GameObject\_Source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3DApp.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Texture.h">
+      <Filter>Base\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapDataManager.h">
+      <Filter>Manager\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>GameObject\SceneObject\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="XScrollingObject.h">
+      <Filter>GameObject\_Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="CreateDevice10.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
