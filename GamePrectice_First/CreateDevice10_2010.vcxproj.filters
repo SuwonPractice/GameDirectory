@@ -85,6 +85,7 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="ObjectManager.cpp" />
+    <ClCompile Include="ICollisionAbleObject.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="D3DApp.h">
@@ -122,6 +123,7 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="ObjectManager.h" />
+    <ClInclude Include="ICollisionAbleObject.h" />
   </ItemGroup>
   <ItemGroup>
     <CLInclude Include="resource.h">

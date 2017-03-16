@@ -12,6 +12,15 @@ XScrollingObject::~XScrollingObject()
 	delete m_Tex;
 }
 
+Message XScrollingObject::ThrowMessage()
+{
+
+}
+void	XScrollingObject::CatchMessage(Message msg)
+{
+
+}
+
 INT XScrollingObject::Init()
 {
 
@@ -27,11 +36,6 @@ INT XScrollingObject::Update()
 	UpdateScrolling();
 	return 0;
 }
-INT XScrollingObject::Collision(GameObject* obj)
-{
-
-	return 0;
-}
 void XScrollingObject::Destroy()
 {
 
@@ -44,3 +48,4 @@ void XScrollingObject::UpdateScrolling()
 	else
 		m_Tex->SetPositionX(m_Tex->GetPositionX() + m_dSpeed* m_Direction * g_pApp->m_fdeltaTime);
 }
+

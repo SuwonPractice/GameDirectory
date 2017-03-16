@@ -10,6 +10,12 @@ class GameObject :
 {
 protected:
 	CTexture* m_Tex;
+
+	D3DXVECTOR2 m_Position;
+	int			m_Rotate;
+
+	int		  m_Layer;
+	int		  m_TAG;
 public:
 	GameObject();
 	virtual ~GameObject();
@@ -18,5 +24,16 @@ public:
 	virtual INT Render();
 	virtual INT Update();
 	virtual void Destroy();
+
+public:
+
+	int GetLayer()
+	{
+		return m_Layer;
+	}
+	int GetTAG()
+	{
+		return m_TAG;
+	}
 };
 

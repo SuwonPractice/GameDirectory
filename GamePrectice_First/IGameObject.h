@@ -2,6 +2,7 @@
 #include "stdafx.h"
 
 class GameObject;
+struct Message;
 
 class IGameObject
 {
@@ -12,10 +13,10 @@ public:
 	virtual INT Init()					   = 0;
 	virtual INT Render()				   = 0;
 	virtual INT Update()				   = 0;
-	virtual INT Collision(GameObject* obj) = 0;
 	virtual void Destroy()				   = 0;
 
-	virtual void ThrowMessage() {};
+	virtual Message ThrowMessage()			  = 0;
+	virtual void	CatchMessage(Message msg) = 0;
 };
 
 enum MessageState
@@ -24,10 +25,11 @@ enum MessageState
 
 } typedef MSGSTATE;
 
+
 struct Message
 {
 private:
-	//---------- Owner
+	//----------  Owner
 	const IGameObject* m_From;
 	//----------  listener?
 	const IGameObject* m_To;

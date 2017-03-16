@@ -1,3 +1,52 @@
-﻿  Game.cpp
-  CreateDevice10_2010.vcxproj -> C:\Users\GameDev\Desktop\Practice\DirectXSamples2\DirectXSamples\CreateDevice10\Debug\CreateDevice10.exe
-  CreateDevice10_2010.vcxproj -> C:\Users\GameDev\Desktop\Practice\DirectXSamples2\DirectXSamples\CreateDevice10\Debug\CreateDevice10.pdb (Full PDB)
+﻿  ObjectManager.cpp
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(42): warning C4100: 'dataType': 참조되지 않은 정식 매개 변수입니다.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(42): warning C4100: 'vpStorage': 참조되지 않은 정식 매개 변수입니다.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\objectmanager.cpp(87): error C2065: 'm_RemoveList': 선언되지 않은 식별자입니다.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\objectmanager.cpp(87): error C2228: '.clear' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\objectmanager.cpp(87): note: 'unknown-type' 형식입니다.
+  TestScene.cpp
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(42): warning C4100: 'dataType': 참조되지 않은 정식 매개 변수입니다.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(42): warning C4100: 'vpStorage': 참조되지 않은 정식 매개 변수입니다.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(29): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(29): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(29): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(29): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(30): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(30): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(30): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(30): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(31): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(31): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(31): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(31): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(32): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(32): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(32): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(32): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(33): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(33): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(33): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(33): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(34): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(34): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(34): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(34): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(35): error C2259: 'XScrollingObject': 추상 클래스를 인스턴스화할 수 없습니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(35): note: 다음 멤버가 원인입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(35): note: 'Message IGameObject::ThrowMessage(void)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(18): note: 'IGameObject::ThrowMessage' 선언을 참조하십시오.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\testscene.cpp(35): note: 'void IGameObject::CatchMessage(Message)': abstract입니다.
+  c:\users\gamedev\documents\github\gamedirectory\gameprectice_first\igameobject.h(19): note: 'IGameObject::CatchMessage' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...

@@ -1,7 +1,9 @@
 #pragma once
 #include "stdafx.h"
 
-class IGameObject;
+class GameObject;
+class ICollisionAbleObject;
+
 
 enum PopState
 {
@@ -9,18 +11,31 @@ enum PopState
 	RS_POP
 };
 
+struct Pop
+{
+	GameObject* m_obj;
+	PopState m_state;
+};
+
 class ObjectManager
 {
 private:
-	std::list<IGameObject*> m_ObjList;
-	std::list<IGameObject*> m_RemoveList;
+	std::list<GameObject*> m_ObjList;
+	std::list<Pop> m_PopList;
+
+	std::list<ICollisionAbleObject*> m_ColliderList;
 public:
 	ObjectManager();
 	virtual ~ObjectManager();
 
-	void AddObject(IGameObject* obj);
-	BOOL RemoveObject(IGameObject* obj);
-	IGameObject* PopObject(IGameObject* obj);
+	void AddObject(GameObject* obj);
+	BOOL RemoveObject(GameObject* obj);
+	GameObject* PopObject(GameObject* obj);
+
+	bool operator ()(GameObject* left, GameObject* right)
+	{
+		return left > right;
+	}
 
 	INT UpdateAll();
 	INT RenderAll();

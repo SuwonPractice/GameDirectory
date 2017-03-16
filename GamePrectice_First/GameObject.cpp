@@ -2,6 +2,8 @@
 
 GameObject::GameObject()
 {
+	m_Layer = 0;
+	m_TAG	= 0;
 }
 
 GameObject::~GameObject()
@@ -23,6 +25,7 @@ INT GameObject::Update()
 
 	return 0;
 }
+
 void GameObject::Destroy()
 {
 
