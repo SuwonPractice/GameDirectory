@@ -1,6 +1,7 @@
 #pragma once
 
-#include "include/d3dx9.h"
+#include <d3dx9.h>
+
 #pragma warning( disable : 4996 ) // disable deprecated warning 
 #include <strsafe.h>
 #pragma warning( default : 4996 )
@@ -19,4 +20,4 @@
 
 #include "BitmapDataManager.h"
 #include "SceneManager.h"
-
+a

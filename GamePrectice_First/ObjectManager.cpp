@@ -17,21 +17,24 @@ void ObjectManager::AddObject(IGameObject* obj)
 }
 BOOL ObjectManager::RemoveObject(IGameObject* obj)
 {
-
+	return true;
 }
 IGameObject* ObjectManager::PopObject(IGameObject* obj)
 {
 
 	
+	return NULL;
 }
 
 INT ObjectManager::UpdateAll()
 {
 
+	return true;
 }
 INT ObjectManager::RenderAll()
 {
 
+	return true;
 }
 INT ObjectManager::Collision()
 {
@@ -42,6 +45,7 @@ INT ObjectManager::Collision()
 
 		}
 	}
+	return true;
 }
 
 void ObjectManager::Clear()
