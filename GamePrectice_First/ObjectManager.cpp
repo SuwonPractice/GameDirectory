@@ -35,7 +35,7 @@ INT ObjectManager::RenderAll()
 }
 INT ObjectManager::Collision()
 {
-	for (auto it_from = m_ObjList.begin(); it_from != m_ObjList.end; ++it_from)
+	for (auto it_from = m_ObjList.begin(); it_from != m_ObjList.end(); ++it_from)
 	{
 		for (auto it_to = it_from; it_to != m_ObjList.end(); ++it_to)
 		{
